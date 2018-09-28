@@ -11,7 +11,7 @@ import QRCodeScanner from 'react-native-qrcode-scanner';
  
 class ScanScreen extends Component {
   onSuccess(e) {
-      console.warn("scanned data",e)
+      console.log("scanned data",e)
     // Linking
     //   .openURL(e.data)
     //   .catch(err => console.error('An error occured', err));
