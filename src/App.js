@@ -8,7 +8,8 @@
 
 import React, {Component} from 'react';
 import {StyleSheet,View} from 'react-native';
-import Camera from './CameraComponent/CaptureImage'
+import Camera from './CameraComponent/CaptureImage';
+import Qrcode from './QrcodeScanner/Qrcode';
 
 
 
@@ -16,7 +17,8 @@ export default class App extends Component{
   render() {
     return (
       <View style={styles.container}>
-        <Camera />
+        {/* <Camera /> */}
+        <Qrcode />
       </View>
     );
   }
